@@ -19,6 +19,9 @@ router.get('/',  async function(req, res, next) {
 router.get('/About',(req,res)=>{
     res.render('user/about')
 })
+router.get('/contact',(req,res)=>{
+  res.render('user/contact')
+})
 router.get('/interior', async(req,res)=>{
   try {
     console.log("interior-----------")
