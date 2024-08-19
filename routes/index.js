@@ -22,6 +22,9 @@ router.get('/About',(req,res)=>{
 router.get('/contact',(req,res)=>{
   res.render('user/contact')
 })
+router.get('/card',(req,res)=>{
+  res.render('user/card')
+})
 router.get('/interior', async(req,res)=>{
   try {
     console.log("interior-----------")
